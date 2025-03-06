@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Barlow Semi Condensed;
+}
+
+.first-division{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+}
+
+.purple{
+    width: 60%;
+}
+
+.white{
+    width: 35%;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.purple{
+    border: 2px solid red;
+}
+
+.first{
+    border: 2px solid black;
+    gap: 20px;
+}
+
+.clifford{
+    border: 2px solid blue; 
+    width: ;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.image img{
+    border-radius: 50%;
+}
+
+.walters{
+    border: 2px solid yellow;
+}
