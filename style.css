@@ -6,20 +6,30 @@
 
 body{
     font-family: Barlow Semi Condensed;
+    background-color: rgb(245, 245, 245);
 }
+.main-container{
+    /* border: 2px solid red; */
+}
+.first-division{
+    /* border: 2px solid blue; */
+}
+
 
 .first-division{
     display: flex;
     flex-direction: row;
-    width: 95%;
+    width: 85%;
+    gap: 30px;
+    margin: 0px auto;
 }
 
 .purple{
-    width: 60%;
+    width: 65%;
 }
 
 .white{
-    width: 35%;
+    width: 30%;
 }
 
 .first{
@@ -31,31 +41,143 @@ body{
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    /* border: 2px solid red; */
 }
 
 .purple{
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .first{
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    gap: 30px;
+}
+.second{
+    /* border: 2px solid green; */
     gap: 20px;
 }
 
-.clifford{
-    border: 2px solid blue; 
-    width: ;
-}
+
 .profile{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    margin-bottom: 10px;
 }
 
 .image img{
     border-radius: 50%;
+    width: 40px;
+}
+.clifford{
+    /* border: 2px solid blue;  */
+    width:65% ;
+    padding: 20px;
+    background-color: rgb(110, 60, 191);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.3);
 }
 
 .walters{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+    width: 35%;
+    padding: 20px;
+    background-color: rgb(73, 85, 107);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.3);
+}
+.harmon{
+    /* border: 2px solid yellow; */
+    width: 33%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.3);
+}
+.abrams{
+    /* border: 2px solid blue;  */
+    width:65% ;
+    padding: 20px;
+    background-color: rgb(25, 31, 45);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.3);
+}
+
+.white{
+    /* border: 2px solid burlywood; */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width:250px;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.3);
+}
+.text h3{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+@media screen and (max-width: 650px){
+
+    .first-division{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* gap: 0; */
+    }
+
+    .purple{
+        width: 100%;
+    }
+
+    .first{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clifford{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+
+    .walters{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+
+    .harmon{
+        /* border: 2px solid red; */
+        width: 100%; 
+    }
+
+    .abrams{
+        /* border: 2px solid red; */
+        width: 100%;  
+    }
+
+    .white{
+        /* border: 2px solid red; */
+        width: 100%;  
+    }
+
+    
+    
+
+
+
+
+
+
+
+
 }
